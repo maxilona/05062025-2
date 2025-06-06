@@ -1,11 +1,12 @@
 public class BmiService {
     public int calculate(int bmi, double v) {
 
-        double h = 1.87;
-        int m = 98;
-        int BmiService;
-        BmiService = (int) (m / (h * h));
-        return BmiService;
+        double h;
+        h = 1.87;
+        int m;
+        m = 98;
+        bmi = (int) (m / (h * h));
+        return bmi;
     }
 
-       }
+}
